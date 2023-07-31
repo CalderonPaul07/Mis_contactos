@@ -1,0 +1,42 @@
+[
+    {
+        "merged": "C:\\Users\\cpaul\\.gradle\\daemon\\8.0\\ec.edu.tecnologicoloja.miscontactos.app-mergeDebugResources-34:\\layout\\activity_main.xml",
+        "source": "C:\\Users\\cpaul\\.gradle\\daemon\\8.0\\ec.edu.tecnologicoloja.miscontactos.app-main-37:\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\cpaul\\.gradle\\daemon\\8.0\\ec.edu.tecnologicoloja.miscontactos.app-mergeDebugResources-34:\\layout\\switch_item.xml",
+        "source": "C:\\Users\\cpaul\\.gradle\\daemon\\8.0\\ec.edu.tecnologicoloja.miscontactos.app-main-37:\\layout\\switch_item.xml"
+    },
+    {
+        "merged": "C:\\Users\\cpaul\\.gradle\\daemon\\8.0\\ec.edu.tecnologicoloja.miscontactos.app-mergeDebugResources-34:\\layout\\fragment_contact_fragment.xml",
+        "source": "C:\\Users\\cpaul\\.gradle\\daemon\\8.0\\ec.edu.tecnologicoloja.miscontactos.app-main-37:\\layout\\fragment_contact_fragment.xml"
+    },
+    {
+        "merged": "C:\\Users\\cpaul\\.gradle\\daemon\\8.0\\ec.edu.tecnologicoloja.miscontactos.app-mergeDebugResources-34:\\layout\\context_list.xml",
+        "source": "C:\\Users\\cpaul\\.gradle\\daemon\\8.0\\ec.edu.tecnologicoloja.miscontactos.app-main-37:\\layout\\context_list.xml"
+    },
+    {
+        "merged": "C:\\Users\\cpaul\\.gradle\\daemon\\8.0\\ec.edu.tecnologicoloja.miscontactos.app-mergeDebugResources-34:\\layout\\activity_new_contacts.xml",
+        "source": "C:\\Users\\cpaul\\.gradle\\daemon\\8.0\\ec.edu.tecnologicoloja.miscontactos.app-main-37:\\layout\\activity_new_contacts.xml"
+    },
+    {
+        "merged": "C:\\Users\\cpaul\\.gradle\\daemon\\8.0\\ec.edu.tecnologicoloja.miscontactos.app-mergeDebugResources-34:\\layout\\activity_detail_contacts.xml",
+        "source": "C:\\Users\\cpaul\\.gradle\\daemon\\8.0\\ec.edu.tecnologicoloja.miscontactos.app-main-37:\\layout\\activity_detail_contacts.xml"
+    },
+    {
+        "merged": "ec.edu.tecnologicoloja.miscontactos.app-mergeDebugResources-34:/layout/activity_splash_contatcs.xml",
+        "source": "ec.edu.tecnologicoloja.miscontactos.app-main-37:/layout/activity_splash_contatcs.xml"
+    },
+    {
+        "merged": "C:\\Users\\cpaul\\.gradle\\daemon\\8.0\\ec.edu.tecnologicoloja.miscontactos.app-mergeDebugResources-34:\\layout\\nav_fragment_header.xml",
+        "source": "C:\\Users\\cpaul\\.gradle\\daemon\\8.0\\ec.edu.tecnologicoloja.miscontactos.app-main-37:\\layout\\nav_fragment_header.xml"
+    },
+    {
+        "merged": "C:\\Users\\cpaul\\.gradle\\daemon\\8.0\\ec.edu.tecnologicoloja.miscontactos.app-mergeDebugResources-34:\\layout\\activity_maps.xml",
+        "source": "C:\\Users\\cpaul\\.gradle\\daemon\\8.0\\ec.edu.tecnologicoloja.miscontactos.app-main-37:\\layout\\activity_maps.xml"
+    },
+    {
+        "merged": "ec.edu.tecnologicoloja.miscontactos.app-mergeDebugResources-34:/layout/activity_maps.xml",
+        "source": "ec.edu.tecnologicoloja.miscontactos.app-main-37:/layout/activity_maps.xml"
+    }
+]

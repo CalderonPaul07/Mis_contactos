@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+
+    android:layout_marginRight="20dp"
+    android:layout_marginLeft="20dp"
+    >
+
+    <TextView
+        android:id="@+id/txtChar"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:textColor="@color/black"
+        android:gravity="center"
+        android:textSize="40sp"
+        android:textAllCaps="true"
+        android:layout_margin="15dp"
+        android:background="@drawable/forma_contacto"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:orientation="vertical"
+        android:layout_margin="15dp"
+        android:padding="10dp">
+
+        <TextView
+            android:id="@+id/list_name"
+            android:textColor="@color/black"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="TextView"
+            android:textSize="15sp"
+            android:layout_marginTop="5dp"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/list_number"
+            android:textColor="@color/black"
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="TextView"
+            android:textSize="14sp"
+            android:layout_marginTop="8dp"/>
+
+
+    </LinearLayout>
+</androidx.appcompat.widget.LinearLayoutCompat>

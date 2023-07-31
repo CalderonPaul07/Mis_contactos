@@ -1,0 +1,186 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="ec.edu.tecnologicoloja.miscontactos"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="30"
+8-->C:\Users\cpaul\AndroidStudioProjects\MisContactos\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="33" />
+9-->C:\Users\cpaul\AndroidStudioProjects\MisContactos\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+11-->C:\Users\cpaul\AndroidStudioProjects\MisContactos\app\src\main\AndroidManifest.xml:5:5-79
+11-->C:\Users\cpaul\AndroidStudioProjects\MisContactos\app\src\main\AndroidManifest.xml:5:22-76
+12    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+12-->C:\Users\cpaul\AndroidStudioProjects\MisContactos\app\src\main\AndroidManifest.xml:6:5-81
+12-->C:\Users\cpaul\AndroidStudioProjects\MisContactos\app\src\main\AndroidManifest.xml:6:22-78
+13
+14    <!-- Include required permissions for Google Maps API to run. -->
+15    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+15-->[com.google.android.gms:play-services-maps:18.1.0] C:\Users\cpaul\.gradle\caches\transforms-3\15171f8bed7983b5e2495155b379f8f6\transformed\play-services-maps-18.1.0\AndroidManifest.xml:23:5-79
+15-->[com.google.android.gms:play-services-maps:18.1.0] C:\Users\cpaul\.gradle\caches\transforms-3\15171f8bed7983b5e2495155b379f8f6\transformed\play-services-maps-18.1.0\AndroidManifest.xml:23:22-76
+16    <uses-permission android:name="android.permission.INTERNET" />
+16-->[com.google.android.gms:play-services-maps:18.1.0] C:\Users\cpaul\.gradle\caches\transforms-3\15171f8bed7983b5e2495155b379f8f6\transformed\play-services-maps-18.1.0\AndroidManifest.xml:24:5-67
+16-->[com.google.android.gms:play-services-maps:18.1.0] C:\Users\cpaul\.gradle\caches\transforms-3\15171f8bed7983b5e2495155b379f8f6\transformed\play-services-maps-18.1.0\AndroidManifest.xml:24:22-64
+17
+18    <uses-feature
+18-->[com.google.android.gms:play-services-maps:18.1.0] C:\Users\cpaul\.gradle\caches\transforms-3\15171f8bed7983b5e2495155b379f8f6\transformed\play-services-maps-18.1.0\AndroidManifest.xml:26:5-28:35
+19        android:glEsVersion="0x00020000"
+19-->[com.google.android.gms:play-services-maps:18.1.0] C:\Users\cpaul\.gradle\caches\transforms-3\15171f8bed7983b5e2495155b379f8f6\transformed\play-services-maps-18.1.0\AndroidManifest.xml:27:9-41
+20        android:required="true" />
+20-->[com.google.android.gms:play-services-maps:18.1.0] C:\Users\cpaul\.gradle\caches\transforms-3\15171f8bed7983b5e2495155b379f8f6\transformed\play-services-maps-18.1.0\AndroidManifest.xml:28:9-32
+21
+22    <queries>
+22-->[com.google.android.gms:play-services-maps:18.1.0] C:\Users\cpaul\.gradle\caches\transforms-3\15171f8bed7983b5e2495155b379f8f6\transformed\play-services-maps-18.1.0\AndroidManifest.xml:30:5-34:15
+23
+24        <!-- Needs to be explicitly declared on Android R+ -->
+25        <package android:name="com.google.android.apps.maps" />
+25-->[com.google.android.gms:play-services-maps:18.1.0] C:\Users\cpaul\.gradle\caches\transforms-3\15171f8bed7983b5e2495155b379f8f6\transformed\play-services-maps-18.1.0\AndroidManifest.xml:33:9-64
+25-->[com.google.android.gms:play-services-maps:18.1.0] C:\Users\cpaul\.gradle\caches\transforms-3\15171f8bed7983b5e2495155b379f8f6\transformed\play-services-maps-18.1.0\AndroidManifest.xml:33:18-61
+26    </queries>
+27
+28    <permission
+28-->[androidx.core:core:1.9.0] C:\Users\cpaul\.gradle\caches\transforms-3\3e4d093f1e84bcebdc27b603c2d76e72\transformed\core-1.9.0\AndroidManifest.xml:22:5-24:47
+29        android:name="ec.edu.tecnologicoloja.miscontactos.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+29-->[androidx.core:core:1.9.0] C:\Users\cpaul\.gradle\caches\transforms-3\3e4d093f1e84bcebdc27b603c2d76e72\transformed\core-1.9.0\AndroidManifest.xml:23:9-81
+30        android:protectionLevel="signature" />
+30-->[androidx.core:core:1.9.0] C:\Users\cpaul\.gradle\caches\transforms-3\3e4d093f1e84bcebdc27b603c2d76e72\transformed\core-1.9.0\AndroidManifest.xml:24:9-44
+31
+32    <uses-permission android:name="ec.edu.tecnologicoloja.miscontactos.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+32-->[androidx.core:core:1.9.0] C:\Users\cpaul\.gradle\caches\transforms-3\3e4d093f1e84bcebdc27b603c2d76e72\transformed\core-1.9.0\AndroidManifest.xml:26:5-97
+32-->[androidx.core:core:1.9.0] C:\Users\cpaul\.gradle\caches\transforms-3\3e4d093f1e84bcebdc27b603c2d76e72\transformed\core-1.9.0\AndroidManifest.xml:26:22-94
+33
+34    <application
+34-->C:\Users\cpaul\AndroidStudioProjects\MisContactos\app\src\main\AndroidManifest.xml:8:5-49:19
+35        android:allowBackup="true"
+35-->C:\Users\cpaul\AndroidStudioProjects\MisContactos\app\src\main\AndroidManifest.xml:9:9-35
+36        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+36-->[androidx.core:core:1.9.0] C:\Users\cpaul\.gradle\caches\transforms-3\3e4d093f1e84bcebdc27b603c2d76e72\transformed\core-1.9.0\AndroidManifest.xml:28:18-86
+37        android:dataExtractionRules="@xml/data_extraction_rules"
+37-->C:\Users\cpaul\AndroidStudioProjects\MisContactos\app\src\main\AndroidManifest.xml:10:9-65
+38        android:debuggable="true"
+39        android:extractNativeLibs="false"
+40        android:fullBackupContent="@xml/backup_rules"
+40-->C:\Users\cpaul\AndroidStudioProjects\MisContactos\app\src\main\AndroidManifest.xml:11:9-54
+41        android:icon="@mipmap/ic_launcher"
+41-->C:\Users\cpaul\AndroidStudioProjects\MisContactos\app\src\main\AndroidManifest.xml:12:9-43
+42        android:label="@string/app_name"
+42-->C:\Users\cpaul\AndroidStudioProjects\MisContactos\app\src\main\AndroidManifest.xml:13:9-41
+43        android:roundIcon="@mipmap/ic_launcher_round"
+43-->C:\Users\cpaul\AndroidStudioProjects\MisContactos\app\src\main\AndroidManifest.xml:14:9-54
+44        android:supportsRtl="true"
+44-->C:\Users\cpaul\AndroidStudioProjects\MisContactos\app\src\main\AndroidManifest.xml:15:9-35
+45        android:testOnly="true"
+46        android:theme="@style/Theme.MisContactos" >
+46-->C:\Users\cpaul\AndroidStudioProjects\MisContactos\app\src\main\AndroidManifest.xml:16:9-50
+47        <activity
+47-->C:\Users\cpaul\AndroidStudioProjects\MisContactos\app\src\main\AndroidManifest.xml:18:9-28:20
+48            android:name="ec.edu.tecnologicoloja.miscontactos.SplashContatcs"
+48-->C:\Users\cpaul\AndroidStudioProjects\MisContactos\app\src\main\AndroidManifest.xml:19:13-43
+49            android:exported="true" >
+49-->C:\Users\cpaul\AndroidStudioProjects\MisContactos\app\src\main\AndroidManifest.xml:20:13-36
+50            <intent-filter>
+50-->C:\Users\cpaul\AndroidStudioProjects\MisContactos\app\src\main\AndroidManifest.xml:22:13-26:29
+51                <action android:name="android.intent.action.MAIN" />
+51-->C:\Users\cpaul\AndroidStudioProjects\MisContactos\app\src\main\AndroidManifest.xml:23:17-69
+51-->C:\Users\cpaul\AndroidStudioProjects\MisContactos\app\src\main\AndroidManifest.xml:23:25-66
+52
+53                <category android:name="android.intent.category.LAUNCHER" />
+53-->C:\Users\cpaul\AndroidStudioProjects\MisContactos\app\src\main\AndroidManifest.xml:25:17-77
+53-->C:\Users\cpaul\AndroidStudioProjects\MisContactos\app\src\main\AndroidManifest.xml:25:27-74
+54            </intent-filter>
+55        </activity>
+56
+57        <meta-data
+57-->C:\Users\cpaul\AndroidStudioProjects\MisContactos\app\src\main\AndroidManifest.xml:30:9-32:71
+58            android:name="com.google.android.geo.API_KEY"
+58-->C:\Users\cpaul\AndroidStudioProjects\MisContactos\app\src\main\AndroidManifest.xml:31:13-58
+59            android:value="AIzaSyDG3qtj_qqIGF0TRs5yNXTSRDpaEo9rAnc" />
+59-->C:\Users\cpaul\AndroidStudioProjects\MisContactos\app\src\main\AndroidManifest.xml:32:13-68
+60
+61        <activity
+61-->C:\Users\cpaul\AndroidStudioProjects\MisContactos\app\src\main\AndroidManifest.xml:34:9-37:59
+62            android:name="ec.edu.tecnologicoloja.miscontactos.MapsActivity"
+62-->C:\Users\cpaul\AndroidStudioProjects\MisContactos\app\src\main\AndroidManifest.xml:35:13-41
+63            android:exported="false"
+63-->C:\Users\cpaul\AndroidStudioProjects\MisContactos\app\src\main\AndroidManifest.xml:36:13-37
+64            android:label="@string/title_activity_maps" />
+64-->C:\Users\cpaul\AndroidStudioProjects\MisContactos\app\src\main\AndroidManifest.xml:37:13-56
+65        <activity
+65-->C:\Users\cpaul\AndroidStudioProjects\MisContactos\app\src\main\AndroidManifest.xml:38:9-40:40
+66            android:name="ec.edu.tecnologicoloja.miscontactos.DetailContacts"
+66-->C:\Users\cpaul\AndroidStudioProjects\MisContactos\app\src\main\AndroidManifest.xml:39:13-43
+67            android:exported="false" />
+67-->C:\Users\cpaul\AndroidStudioProjects\MisContactos\app\src\main\AndroidManifest.xml:40:13-37
+68        <activity
+68-->C:\Users\cpaul\AndroidStudioProjects\MisContactos\app\src\main\AndroidManifest.xml:41:9-43:40
+69            android:name="ec.edu.tecnologicoloja.miscontactos.NewContacts"
+69-->C:\Users\cpaul\AndroidStudioProjects\MisContactos\app\src\main\AndroidManifest.xml:42:13-40
+70            android:exported="false" />
+70-->C:\Users\cpaul\AndroidStudioProjects\MisContactos\app\src\main\AndroidManifest.xml:43:13-37
+71        <activity
+71-->C:\Users\cpaul\AndroidStudioProjects\MisContactos\app\src\main\AndroidManifest.xml:44:9-48:20
+72            android:name="ec.edu.tecnologicoloja.miscontactos.MainActivity"
+72-->C:\Users\cpaul\AndroidStudioProjects\MisContactos\app\src\main\AndroidManifest.xml:45:13-41
+73            android:exported="false" >
+73-->C:\Users\cpaul\AndroidStudioProjects\MisContactos\app\src\main\AndroidManifest.xml:46:13-37
+74        </activity>
+75        <!-- Needs to be explicitly declared on P+ -->
+76        <uses-library
+76-->[com.google.android.gms:play-services-maps:18.1.0] C:\Users\cpaul\.gradle\caches\transforms-3\15171f8bed7983b5e2495155b379f8f6\transformed\play-services-maps-18.1.0\AndroidManifest.xml:39:9-41:40
+77            android:name="org.apache.http.legacy"
+77-->[com.google.android.gms:play-services-maps:18.1.0] C:\Users\cpaul\.gradle\caches\transforms-3\15171f8bed7983b5e2495155b379f8f6\transformed\play-services-maps-18.1.0\AndroidManifest.xml:40:13-50
+78            android:required="false" />
+78-->[com.google.android.gms:play-services-maps:18.1.0] C:\Users\cpaul\.gradle\caches\transforms-3\15171f8bed7983b5e2495155b379f8f6\transformed\play-services-maps-18.1.0\AndroidManifest.xml:41:13-37
+79
+80        <service
+80-->[androidx.room:room-runtime:2.5.0] C:\Users\cpaul\.gradle\caches\transforms-3\a049607f94549f37fcc4764b88e38093\transformed\room-runtime-2.5.0\AndroidManifest.xml:24:9-28:63
+81            android:name="androidx.room.MultiInstanceInvalidationService"
+81-->[androidx.room:room-runtime:2.5.0] C:\Users\cpaul\.gradle\caches\transforms-3\a049607f94549f37fcc4764b88e38093\transformed\room-runtime-2.5.0\AndroidManifest.xml:25:13-74
+82            android:directBootAware="true"
+82-->[androidx.room:room-runtime:2.5.0] C:\Users\cpaul\.gradle\caches\transforms-3\a049607f94549f37fcc4764b88e38093\transformed\room-runtime-2.5.0\AndroidManifest.xml:26:13-43
+83            android:exported="false" />
+83-->[androidx.room:room-runtime:2.5.0] C:\Users\cpaul\.gradle\caches\transforms-3\a049607f94549f37fcc4764b88e38093\transformed\room-runtime-2.5.0\AndroidManifest.xml:27:13-37
+84
+85        <activity
+85-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\cpaul\.gradle\caches\transforms-3\8cdae4cdf7635096af87276b9c5a783a\transformed\play-services-base-18.0.1\AndroidManifest.xml:20:9-22:45
+86            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+86-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\cpaul\.gradle\caches\transforms-3\8cdae4cdf7635096af87276b9c5a783a\transformed\play-services-base-18.0.1\AndroidManifest.xml:20:19-85
+87            android:exported="false"
+87-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\cpaul\.gradle\caches\transforms-3\8cdae4cdf7635096af87276b9c5a783a\transformed\play-services-base-18.0.1\AndroidManifest.xml:22:19-43
+88            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+88-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\cpaul\.gradle\caches\transforms-3\8cdae4cdf7635096af87276b9c5a783a\transformed\play-services-base-18.0.1\AndroidManifest.xml:21:19-78
+89
+90        <meta-data
+90-->[com.google.android.gms:play-services-basement:18.0.0] C:\Users\cpaul\.gradle\caches\transforms-3\898be1102ae6353fe0a15dc887f6efd7\transformed\play-services-basement-18.0.0\AndroidManifest.xml:21:9-23:69
+91            android:name="com.google.android.gms.version"
+91-->[com.google.android.gms:play-services-basement:18.0.0] C:\Users\cpaul\.gradle\caches\transforms-3\898be1102ae6353fe0a15dc887f6efd7\transformed\play-services-basement-18.0.0\AndroidManifest.xml:22:13-58
+92            android:value="@integer/google_play_services_version" />
+92-->[com.google.android.gms:play-services-basement:18.0.0] C:\Users\cpaul\.gradle\caches\transforms-3\898be1102ae6353fe0a15dc887f6efd7\transformed\play-services-basement-18.0.0\AndroidManifest.xml:23:13-66
+93
+94        <provider
+94-->[androidx.emoji2:emoji2:1.2.0] C:\Users\cpaul\.gradle\caches\transforms-3\4204b2432a1c07e1e804058eb049f397\transformed\emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
+95            android:name="androidx.startup.InitializationProvider"
+95-->[androidx.emoji2:emoji2:1.2.0] C:\Users\cpaul\.gradle\caches\transforms-3\4204b2432a1c07e1e804058eb049f397\transformed\emoji2-1.2.0\AndroidManifest.xml:25:13-67
+96            android:authorities="ec.edu.tecnologicoloja.miscontactos.androidx-startup"
+96-->[androidx.emoji2:emoji2:1.2.0] C:\Users\cpaul\.gradle\caches\transforms-3\4204b2432a1c07e1e804058eb049f397\transformed\emoji2-1.2.0\AndroidManifest.xml:26:13-68
+97            android:exported="false" >
+97-->[androidx.emoji2:emoji2:1.2.0] C:\Users\cpaul\.gradle\caches\transforms-3\4204b2432a1c07e1e804058eb049f397\transformed\emoji2-1.2.0\AndroidManifest.xml:27:13-37
+98            <meta-data
+98-->[androidx.emoji2:emoji2:1.2.0] C:\Users\cpaul\.gradle\caches\transforms-3\4204b2432a1c07e1e804058eb049f397\transformed\emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
+99                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+99-->[androidx.emoji2:emoji2:1.2.0] C:\Users\cpaul\.gradle\caches\transforms-3\4204b2432a1c07e1e804058eb049f397\transformed\emoji2-1.2.0\AndroidManifest.xml:30:17-75
+100                android:value="androidx.startup" />
+100-->[androidx.emoji2:emoji2:1.2.0] C:\Users\cpaul\.gradle\caches\transforms-3\4204b2432a1c07e1e804058eb049f397\transformed\emoji2-1.2.0\AndroidManifest.xml:31:17-49
+101            <meta-data
+101-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\cpaul\.gradle\caches\transforms-3\3ee252999558ab01a513de3f59ac56bb\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:31:13-33:52
+102                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+102-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\cpaul\.gradle\caches\transforms-3\3ee252999558ab01a513de3f59ac56bb\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:32:17-78
+103                android:value="androidx.startup" />
+103-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\cpaul\.gradle\caches\transforms-3\3ee252999558ab01a513de3f59ac56bb\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:33:17-49
+104        </provider>
+105    </application>
+106
+107</manifest>
